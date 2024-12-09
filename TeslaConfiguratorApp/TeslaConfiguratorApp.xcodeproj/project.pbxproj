@@ -6,30 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		35B73FDA2D07825F00D6858F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B73FD12D07825F00D6858F /* Assets.xcassets */; };
+		35B73FDC2D07825F00D6858F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B73FD42D07825F00D6858F /* LaunchScreen.storyboard */; };
+		35B73FDE2D07825F00D6858F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B73FD02D07825F00D6858F /* AppDelegate.swift */; };
+		35B73FDF2D07825F00D6858F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B73FD72D07825F00D6858F /* SceneDelegate.swift */; };
+		35B73FE32D07836900D6858F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B73FE22D07836900D6858F /* AppCoordinator.swift */; };
+		35B73FE52D07845300D6858F /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B73FE42D07845300D6858F /* OnboardingViewController.swift */; };
+		35B73FFE2D07870900D6858F /* UIFont + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B73FFD2D07870900D6858F /* UIFont + Extention.swift */; };
+		35B740002D07874900D6858F /* UIColor + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B73FFF2D07874900D6858F /* UIColor + Extention.swift */; };
+		35B740032D0787E500D6858F /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B740022D0787E500D6858F /* CustomColors.swift */; };
+		35C9F7E42D07914700741D08 /* gothampro-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35C9F7E12D07914700741D08 /* gothampro-light.ttf */; };
+		35C9F7E52D07914700741D08 /* RobotoBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35C9F7E32D07914700741D08 /* RobotoBlack.ttf */; };
+		35C9F7E62D07914700741D08 /* gothampro-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35C9F7E02D07914700741D08 /* gothampro-bold.ttf */; };
+		35C9F7E72D07914700741D08 /* gothampro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35C9F7DF2D07914700741D08 /* gothampro.ttf */; };
+		35C9F7E82D07914700741D08 /* gothampro-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35C9F7E22D07914700741D08 /* gothampro-medium.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		35B73FB82D0781D000D6858F /* TeslaConfiguratorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeslaConfiguratorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B73FD02D07825F00D6858F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35B73FD12D07825F00D6858F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35B73FD22D07825F00D6858F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B73FD32D07825F00D6858F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35B73FD72D07825F00D6858F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35B73FE22D07836900D6858F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		35B73FE42D07845300D6858F /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		35B73FFD2D07870900D6858F /* UIFont + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extention.swift"; sourceTree = "<group>"; };
+		35B73FFF2D07874900D6858F /* UIColor + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extention.swift"; sourceTree = "<group>"; };
+		35B740022D0787E500D6858F /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		35C9F7D72D078C7300741D08 /* TeslaConfiguratorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TeslaConfiguratorApp.app; path = "/Users/maxpnz/TeslaConfigurator/TeslaConfiguratorApp/build/Debug-iphoneos/TeslaConfiguratorApp.app"; sourceTree = "<absolute>"; };
+		35C9F7DF2D07914700741D08 /* gothampro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gothampro.ttf; sourceTree = "<group>"; };
+		35C9F7E02D07914700741D08 /* gothampro-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gothampro-bold.ttf"; sourceTree = "<group>"; };
+		35C9F7E12D07914700741D08 /* gothampro-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gothampro-light.ttf"; sourceTree = "<group>"; };
+		35C9F7E22D07914700741D08 /* gothampro-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gothampro-medium.ttf"; sourceTree = "<group>"; };
+		35C9F7E32D07914700741D08 /* RobotoBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoBlack.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		35B73FCA2D0781D300D6858F /* Exceptions for "TeslaConfiguratorApp" folder in "TeslaConfiguratorApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 35B73FB72D0781D000D6858F /* TeslaConfiguratorApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		35B73FBA2D0781D000D6858F /* TeslaConfiguratorApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				35B73FCA2D0781D300D6858F /* Exceptions for "TeslaConfiguratorApp" folder in "TeslaConfiguratorApp" target */,
-			);
-			path = TeslaConfiguratorApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		35B73FB52D0781D000D6858F /* Frameworks */ = {
@@ -45,17 +56,94 @@
 		35B73FAF2D0781D000D6858F = {
 			isa = PBXGroup;
 			children = (
-				35B73FBA2D0781D000D6858F /* TeslaConfiguratorApp */,
-				35B73FB92D0781D000D6858F /* Products */,
+				35B73FD92D07825F00D6858F /* TeslaConfiguratorApp */,
 			);
 			sourceTree = "<group>";
 		};
-		35B73FB92D0781D000D6858F /* Products */ = {
+		35B73FD92D07825F00D6858F /* TeslaConfiguratorApp */ = {
 			isa = PBXGroup;
 			children = (
-				35B73FB82D0781D000D6858F /* TeslaConfiguratorApp.app */,
+				35B73FFC2D0786F300D6858F /* Extentios */,
+				35B73FE12D07826800D6858F /* LifeCycle */,
+				35B73FE22D07836900D6858F /* AppCoordinator.swift */,
+				35B740052D078A6300D6858F /* Scenes */,
+				35B73FEE2D0784A200D6858F /* Resources */,
+				35B73FD22D07825F00D6858F /* Info.plist */,
 			);
-			name = Products;
+			path = TeslaConfiguratorApp;
+			sourceTree = "<group>";
+		};
+		35B73FE12D07826800D6858F /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				35B73FD02D07825F00D6858F /* AppDelegate.swift */,
+				35B73FD72D07825F00D6858F /* SceneDelegate.swift */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		35B73FEE2D0784A200D6858F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35C9F7D82D078CC900741D08 /* Font */,
+				35B740012D07878F00D6858F /* Color */,
+				35B73FD12D07825F00D6858F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35B73FFC2D0786F300D6858F /* Extentios */ = {
+			isa = PBXGroup;
+			children = (
+				35B73FFD2D07870900D6858F /* UIFont + Extention.swift */,
+				35B73FFF2D07874900D6858F /* UIColor + Extention.swift */,
+			);
+			path = Extentios;
+			sourceTree = "<group>";
+		};
+		35B740012D07878F00D6858F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				35B740022D0787E500D6858F /* CustomColors.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		35B740052D078A6300D6858F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				35B740062D078A7400D6858F /* LaunchScreen */,
+				35B740072D078A8200D6858F /* Onboarding */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		35B740062D078A7400D6858F /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				35B73FD42D07825F00D6858F /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		35B740072D078A8200D6858F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				35B73FE42D07845300D6858F /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		35C9F7D82D078CC900741D08 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				35C9F7DF2D07914700741D08 /* gothampro.ttf */,
+				35C9F7E02D07914700741D08 /* gothampro-bold.ttf */,
+				35C9F7E12D07914700741D08 /* gothampro-light.ttf */,
+				35C9F7E22D07914700741D08 /* gothampro-medium.ttf */,
+				35C9F7E32D07914700741D08 /* RobotoBlack.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,14 +161,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				35B73FBA2D0781D000D6858F /* TeslaConfiguratorApp */,
-			);
 			name = TeslaConfiguratorApp;
 			packageProductDependencies = (
 			);
 			productName = TeslaConfiguratorApp;
-			productReference = 35B73FB82D0781D000D6858F /* TeslaConfiguratorApp.app */;
+			productReference = 35C9F7D72D078C7300741D08 /* TeslaConfiguratorApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +193,7 @@
 			mainGroup = 35B73FAF2D0781D000D6858F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 35B73FB92D0781D000D6858F /* Products */;
+			productRefGroup = 35B73FAF2D0781D000D6858F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -122,6 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C9F7E42D07914700741D08 /* gothampro-light.ttf in Resources */,
+				35C9F7E52D07914700741D08 /* RobotoBlack.ttf in Resources */,
+				35C9F7E62D07914700741D08 /* gothampro-bold.ttf in Resources */,
+				35C9F7E72D07914700741D08 /* gothampro.ttf in Resources */,
+				35C9F7E82D07914700741D08 /* gothampro-medium.ttf in Resources */,
+				35B73FDA2D07825F00D6858F /* Assets.xcassets in Resources */,
+				35B73FDC2D07825F00D6858F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +224,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B740002D07874900D6858F /* UIColor + Extention.swift in Sources */,
+				35B73FE32D07836900D6858F /* AppCoordinator.swift in Sources */,
+				35B740032D0787E500D6858F /* CustomColors.swift in Sources */,
+				35B73FDE2D07825F00D6858F /* AppDelegate.swift in Sources */,
+				35B73FE52D07845300D6858F /* OnboardingViewController.swift in Sources */,
+				35B73FDF2D07825F00D6858F /* SceneDelegate.swift in Sources */,
+				35B73FFE2D07870900D6858F /* UIFont + Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35B73FD42D07825F00D6858F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35B73FD32D07825F00D6858F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		35B73FCC2D0781D300D6858F /* Debug */ = {
@@ -150,7 +260,6 @@
 				INFOPLIST_FILE = TeslaConfiguratorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +287,6 @@
 				INFOPLIST_FILE = TeslaConfiguratorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
